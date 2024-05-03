@@ -20,6 +20,6 @@ def func_httptrigger(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "This is a website function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
+             "This is a website by azurre function executed successfully and halil. Pass a name in the query string or in the request body for a personalized response.",
              status_code=200
         )
